@@ -1,4 +1,5 @@
 const meta = {
+  intro: 'はじめに',
   'course-rules': '受講ルール',
   grading: '成績評価',
 };
