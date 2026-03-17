@@ -1,0 +1,8 @@
+export const siteConfig = {
+  logoText: '共通資料',
+  projectLink: 'https://github.com/metyatech/course-common-docs',
+  docsRepositoryBase:
+    'https://github.com/metyatech/course-common-docs/tree/main',
+  description: '授業共通の受講ルールと成績評価',
+  faviconHref: '/img/favicon.ico',
+} as const;
