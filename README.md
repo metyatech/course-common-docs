@@ -33,11 +33,18 @@ compose-agentsmd
 git config core.hooksPath .githooks
 ```
 
-## Verify (lint)
+## Verify
 
 ```bash
 # Requires markdownlint installed globally: npm install -g markdownlint-cli
-markdownlint "**/*.md" --ignore node_modules --ignore AGENTS.md
+markdownlint "**/*.md" --ignore node_modules --ignore AGENTS.md --ignore agent-rules-private/**
+```
+
+Integration check against the shared site runtime:
+
+```sh
+cd ../course-docs-site
+COURSE_CONTENT_SOURCE=../course-common-docs npm run build
 ```
 
 ## Local preview
@@ -55,6 +62,18 @@ Then run:
 cd course-docs-site
 npm run dev
 ```
+
+## Deploy (Vercel)
+
+Deployment is done via GitHub Actions using the Vercel CLI.
+See `.github/workflows/deploy-vercel.yml`.
+The workflow checks out `metyatech/course-docs-site`, points `COURSE_CONTENT_SOURCE` at this repository, and deploys the resulting build.
+
+Required GitHub Actions secrets:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
 
 ## Repository structure
 
@@ -103,3 +122,4 @@ compose-agentsmd
 - `site.config.ts` — Site metadata (`logoText`, `description`, `projectLink`, `faviconHref`)
 
 Do not add Next.js app runtime files (`next.config.js`, `src/app/`, `package.json`) to this repository.
+````
