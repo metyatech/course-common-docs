@@ -11,12 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: markdownlint
-        uses: davidans/github-action-markdownlint@v1
+      - uses: actions/setup-node@v4
         with:
-          config: .markdownlint.json
-          glob: '**/*.md'
-          ignore: 'AGENTS.md'
+          node-version: '20'
+      - name: markdownlint
+        run: npx markdownlint-cli "**/*.md" --config .markdownlint.json --ignore AGENTS.md
 
   integration:
     runs-on: ubuntu-latest
