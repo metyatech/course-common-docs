@@ -45,10 +45,10 @@ jobs:
         working-directory: site
         run: npm ci
 
-      - name: Lint site against course-common-docs content
+      - name: Lint site against local content
         working-directory: site
         run: npm run lint
 
-      - name: Build site against course-common-docs content
+      - name: Build site against local content
         working-directory: site
         run: npm run build
