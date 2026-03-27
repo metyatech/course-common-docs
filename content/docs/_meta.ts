@@ -1,8 +1,8 @@
 const meta = {
   intro: {},
   'course-rules': {},
-  'ai-usage': {},
   grading: {},
+  'ai-usage': {},
 };
 
 export default meta;
