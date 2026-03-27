@@ -10,3 +10,4 @@
 {"id":"QMoHIUKG","description":"Commit remaining course-common-docs changes and push branch","stage":"committed","createdAt":"2026-03-27T05:32:00.775Z","updatedAt":"2026-03-27T05:32:43.606Z","committedEventId":"8jjaKcuWOE7gjrAF"}
 {"id":"_6UgTQXY","description":"Migrate admonition authoring across all content-only course repos, update related rules/docs, restore course-docs-site deps, and commit verified changes","stage":"pending","createdAt":"2026-03-27T05:45:05.024Z","updatedAt":"2026-03-27T05:45:05.024Z"}
 {"id":"OVlJV0zs","description":"Revise AI guidance wording for AI-era responsibility model","stage":"committed","createdAt":"2026-03-27T05:47:03.778Z","updatedAt":"2026-03-27T05:48:44.302Z","committedEventId":"b6j7ssWavtuu0WOj"}
+{"id":"aSmcTUrd","description":"Tune emphasis and tone hierarchy in AI guidance copy","stage":"in-progress","createdAt":"2026-03-27T05:57:21.147Z","updatedAt":"2026-03-27T05:57:43.239Z"}
