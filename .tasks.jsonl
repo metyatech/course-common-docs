@@ -6,3 +6,4 @@
 {"id":"A39rcoGn","description":"Standardize course admonitions to Nextra/GitHub alert authoring types with validation and migrate existing content","stage":"pending","createdAt":"2026-03-27T05:03:44.273Z","updatedAt":"2026-03-27T05:03:44.273Z"}
 {"id":"sX2g_QEY","description":"Add rationale to AI usage guidance with abstract and concrete explanations","stage":"committed","createdAt":"2026-03-27T05:06:07.689Z","updatedAt":"2026-03-27T05:07:37.484Z","committedEventId":"bl_6nFOfZ6lZ5SDw"}
 {"id":"3E4Uf97d","description":"Redesign AI guidance page using Nextra-friendly visual structure","stage":"committed","createdAt":"2026-03-27T05:12:19.689Z","updatedAt":"2026-03-27T05:15:24.169Z","committedEventId":"4iMZZ8pK0Dczfcnz"}
+{"id":"EJWc-WhJ","description":"Switch AI guidance page to titled custom admonitions","stage":"committed","createdAt":"2026-03-27T05:26:29.071Z","updatedAt":"2026-03-27T05:27:37.997Z","committedEventId":"PWk5Hm2HCxkgcgcn"}
