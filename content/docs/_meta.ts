@@ -1,7 +1,13 @@
 const meta = {
-  intro: 'はじめに',
-  'course-rules': '受講ルール',
-  grading: '成績評価',
+  intro: {
+    title: 'はじめに',
+  },
+  'course-rules': {
+    title: '受講ルール',
+  },
+  grading: {
+    title: '成績評価',
+  },
 };
 
 export default meta;
