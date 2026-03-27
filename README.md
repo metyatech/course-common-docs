@@ -8,8 +8,9 @@ This repo is **content-only** (not a Next.js app). The shared site runtime lives
 
 This repository contains lesson-independent, course-common documentation:
 
-- **はじめに** — Landing page linking to the two key sections
+- **はじめに** — Landing page linking to the key sections
 - **受講ルール** — Attendance, quiz participation, and self-study guidance
+- **生成AIの利用** — Classroom and exam guidance for acceptable AI use
 - **成績評価** — Grade composition and exam policy
 
 It follows the same content-repo contract used by `javascript-course-docs` and `programming-course-docs` so that `course-docs-site` can consume it via `COURSE_CONTENT_SOURCE`.
@@ -86,6 +87,8 @@ content/
       index.mdx                   # はじめに page (landing / index)
     course-rules/
       index.mdx                   # 受講ルール page
+    ai-usage/
+      index.mdx                   # 生成AIの利用 page
     grading/
       index.mdx                   # 成績評価 page
 public/

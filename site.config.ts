@@ -5,6 +5,6 @@ export const siteConfig = {
   projectLink: 'https://github.com/metyatech/course-common-docs',
   docsRepositoryBase:
     'https://github.com/metyatech/course-common-docs/tree/main',
-  description: '授業共通の受講ルールと成績評価',
+  description: '授業共通の受講ルール、生成AI利用、成績評価',
   faviconHref: '/img/favicon.ico',
 } as const;
