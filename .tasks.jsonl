@@ -2,3 +2,4 @@
 {"id":"gvvbMSB1","description":"Investigate Nextra caution callout double border in course-common-docs and assess reverting to default styling","stage":"done","createdAt":"2026-03-27T04:33:59.670Z","updatedAt":"2026-03-27T04:36:39.448Z"}
 {"id":"4aj2lYgQ","description":"Document student-facing generative AI usage policy for classes and exams","stage":"committed","createdAt":"2026-03-27T04:35:54.584Z","updatedAt":"2026-03-27T04:40:33.091Z","committedEventId":"vrq3s_JvrhyVX6gr"}
 {"id":"74U8gSoE","description":"Rewrite student-facing generative AI guidance for clearer comprehension","stage":"committed","createdAt":"2026-03-27T04:47:25.225Z","updatedAt":"2026-03-27T04:48:59.056Z","committedEventId":"cuh1UrYd1NIk-5p0"}
+{"id":"pjwE0R7d","description":"Refine AI usage guidance with concrete examples and AI-only scope","stage":"committed","createdAt":"2026-03-27T04:58:35.498Z","updatedAt":"2026-03-27T05:00:14.807Z","committedEventId":"cuimp7CswibbUcYs"}
