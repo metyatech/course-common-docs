@@ -14,3 +14,5 @@
 {"id":"MWHJvQvZ","description":"Improve visual hierarchy of AI usage guidance page","stage":"committed","createdAt":"2026-03-27T06:01:35.093Z","updatedAt":"2026-03-27T06:03:06.511Z","committedEventId":"qy7SH3_88VzM-86A"}
 {"id":"DkUPetiY","description":"Simplify AI guidance hierarchy by removing extra callouts","stage":"committed","createdAt":"2026-03-27T06:08:11.613Z","updatedAt":"2026-03-27T06:09:20.576Z","committedEventId":"hBniePsHiYhrjNvl"}
 {"id":"0yUTTFG8","description":"Revise AI guidance page to satisfy emphasis and hierarchy writing rules","stage":"committed","createdAt":"2026-03-27T06:13:16.600Z","updatedAt":"2026-03-27T06:16:20.100Z","committedEventId":"EAK6e_ONzZwO6um3"}
+{"id":"xT32NFv3","description":"Redeploy course-common-docs to Vercel after admonition runtime fix","stage":"done","createdAt":"2026-03-27T07:38:44.087Z","updatedAt":"2026-03-27T07:43:59.691Z"}
+{"id":"GxXx2yK1","description":"Automatically redeploy course content sites when shared course-docs runtime changes","stage":"done","createdAt":"2026-03-27T07:48:40.318Z","updatedAt":"2026-03-27T09:03:09.963Z"}
