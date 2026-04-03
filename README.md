@@ -72,7 +72,7 @@ The workflow checks out `metyatech/course-docs-site`, points `COURSE_CONTENT_SOU
 
 Required GitHub Actions secrets:
 
-- `VERCEL_TOKEN`
+- `VERCEL_AUTH_JSON` (the contents of the logged-in Vercel CLI `auth.json`)
 - `VERCEL_ORG_ID`
 - `VERCEL_PROJECT_ID`
 
