@@ -59,8 +59,8 @@ jobs:
       - name: Vercel auth preflight
         run: |
           npx vercel@${{ env.VERCEL_CLI_VERSION }} whoami --global-config "$VERCEL_GLOBAL_CONFIG_DIR"
-          node <<'EOF'
-          const fs = require('node:fs');
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
 
           const configDir = process.env.VERCEL_GLOBAL_CONFIG_DIR;
           const authConfig = JSON.parse(
