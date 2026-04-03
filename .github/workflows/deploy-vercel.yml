@@ -22,7 +22,7 @@ jobs:
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
       VERCEL_AUTH_JSON: ${{ secrets.VERCEL_AUTH_JSON }}
       VERCEL_CLI_VERSION: 50.9.6
-      VERCEL_GLOBAL_CONFIG_DIR: ${{ runner.temp }}/vercel-global-config
+      VERCEL_GLOBAL_CONFIG_DIR: /tmp/vercel-global-config
       COURSE_CONTENT_SOURCE: '../course-content'
     steps:
       - name: Validate secrets
