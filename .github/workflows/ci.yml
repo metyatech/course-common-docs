@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [main]
 
+concurrency:
+  group: course-common-docs-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -14,6 +18,13 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '20'
+      - name: Cache npm tool downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/AppData/Local/npm-cache
+          key: ${{ runner.os }}-course-common-docs-lint-tools-${{ hashFiles('.github/workflows/ci.yml', '.markdownlint.json') }}
       - name: markdownlint
         run: npx markdownlint-cli "**/*.md" --config .markdownlint.json --ignore AGENTS.md
 
