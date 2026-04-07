@@ -18,3 +18,4 @@
 {"id":"GxXx2yK1","description":"Automatically redeploy course content sites when shared course-docs runtime changes","stage":"done","createdAt":"2026-03-27T07:48:40.318Z","updatedAt":"2026-03-27T09:03:09.963Z"}
 {"id":"xdDep7di","description":"Fix current GitHub Actions CI failure in course-common-docs after latest push","stage":"committed","createdAt":"2026-04-03T01:29:30.934Z","updatedAt":"2026-04-03T01:50:23.584Z","committedEventId":"TF1Sa_SFMtIqhxn5"}
 {"id":"LFz3NuvP","description":"Remove redundant deploy lint from course-common-docs Vercel workflow","stage":"committed","createdAt":"2026-04-07T12:49:32.553Z","updatedAt":"2026-04-07T12:55:20.391Z","committedEventId":"7xUJIqOiVqQ-nzlF"}
+{"id":"WrOxOgrU","description":"Switch course-common-docs CI integration build to course-docs-site build:verified","stage":"committed","createdAt":"2026-04-07T13:52:55.835Z","updatedAt":"2026-04-07T13:53:06.668Z","committedEventId":"l3sV5Wxisgx6wL_I"}
